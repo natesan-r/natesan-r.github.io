@@ -17,6 +17,7 @@
      //getToken(messaging);
      return messaging.getToken();
   }).then(function(token){
+    alert(token);
   console.log(token);
   })
 .catch(function(err) {
